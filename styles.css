@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f8ff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.glow {
+    font-size: 2.5em;
+    color: #ff69b4;
+    text-shadow: 0 0 10px rgba(255, 105, 180, 0.7);
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #fff;
+}
+
+button#revealBtn {
+    background-color: #ff69b4;
+}
+
+button.answer-btn {
+    background-color: #ff69b4;
+}
+
+button#yesBtn {
+    background-color: #66cc66;
+}
+
+button#noBtn {
+    background-color: #ff6347;
+}
